@@ -60,6 +60,6 @@ result = nn.sim(test_input)
 prediction = result.reshape(test_output.size)
 
 # plotting test result
-plt.plot( x, y, '.', test_x, prediction,'-')
+plt.plot( test_x, test_y, '.', test_x, prediction,'-')
 plt.title('Function curve v/s Prediction curve')
 plt.show()
